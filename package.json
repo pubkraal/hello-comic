@@ -1,0 +1,34 @@
+{
+  "name": "hello-comic",
+  "version": "0.0.1",
+  "description": "Comic Sans Appreciation website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komlew/hello-comic.git"
+  },
+  "keywords": [
+    "comic",
+    "comic-sans",
+    "hello-world"
+  ],
+  "author": "Alex D. Komlev",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/komlew/hello-comic/issues"
+  },
+  "homepage": "https://github.com/komlew/hello-comic#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "comic-sites": "0.0.6"
+  }
+}
